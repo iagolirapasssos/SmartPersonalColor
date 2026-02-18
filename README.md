@@ -60,7 +60,7 @@ It gives back → skin color, undertone, season, palettes, and a face image
 
 Everything happens automatically inside the extension when you call the `Analyze` method. You only work with the results in the `AnalysisResult` event using MIT App Inventor blocks.
 
-The only concept you need to understand is the **YailList of palettes**, which is explained in detail in the [Working with Palettes](#-working-with-palettes-the-most-important-part) section below.
+The only concept you need to understand is the **List of palettes**, which is explained in detail in the [Working with Palettes](#-working-with-palettes-the-most-important-part) section below.
 
 ---
 
@@ -136,7 +136,7 @@ SmartPersonalColor has **2 events**.
 
 Fires when analysis completes successfully.
 
-> Returns average face RGB, undertone, 12-season result, 15 named color palettes (YailList of YailLists: index 0 = name, index 1–5 = hex colors), and a transparent PNG path of the face with background removed (no external API).
+> Returns average face RGB, undertone, 12-season result, 15 named color palettes (List of Lists: index 0 = name, index 1–5 = hex colors), and a transparent PNG path of the face with background removed (no external API).
 
 | Parameter | Type | Description |
 |---|---|---|
@@ -145,7 +145,7 @@ Fires when analysis completes successfully.
 | `b` | number | Blue channel of the average skin color (0–255) |
 | `undertone` | text | One of: `Golden`, `Rosy`, `Neutral`, `Peach`, `Olive` |
 | `season` | text | One of the 12 seasons, e.g. `True Spring`, `Deep Autumn` |
-| `palettes` | list | A YailList containing 15 palettes (see section below) |
+| `palettes` | list | A List containing 15 palettes (see section below) |
 | `faceImagePath` | text | Local `file://` path to the transparent PNG of the face |
 
 ---
@@ -173,7 +173,7 @@ SmartPersonalColor has **1 method**.
 
 ### 1. `Analyze`
 
-Analyzes the image. Fires `AnalysisResult` with: average face RGB, undertone, season, 15 color palettes (YailList), and the path to a PNG of the face with background removed.
+Analyzes the image. Fires `AnalysisResult` with: average face RGB, undertone, season, 15 color palettes (List), and the path to a PNG of the face with background removed.
 
 | Parameter | Type | Description |
 |---|---|---|
