@@ -1,0 +1,40 @@
+# Project version 5.5.0 18.01.26.15.18+18 fev. 26
+# The name of the extension developer.
+author: Francisco Iago Lira Passos
+
+# Define the minimum Android SDK API level your extension supports.
+min_sdk: 14
+# Define the compile Android SDK API level.
+# compile_sdk: 35
+# If enabled, the D8 tool will generate desugared jar (classes.dex)
+desugar_dex: true
+# If enabled, extension will be optimized using R8.
+R8: true
+# If enabled, extension will be optimized using ProGuard.
+proguard: true
+# Define specific ProGuard version.
+# proguard_version: 7.8.2
+# If enabled, Kotlin Standard Libraries will be included with the extension.
+# kotlin: false
+# Kotlin Compiler version.
+# kotlin_version: 1.9.24
+
+# Runtime dependencies [Local Only]
+# dependencies:
+
+# Compile-time dependencies [Local Only]
+# compile_time:
+# - mylibrary.jar
+
+# Extension assets. [Should be present in assets directory]
+# assets:
+# - my-awesome-asset.anything
+
+# Enable to write docs in Markdown during build. Pass `-b` to generate blocks.
+gen_docs: true
+# Enable to increment the version number of each component during build.
+auto_version: true
+# Enable to remove @annotations from the extension.
+deannonate: true
+# Enable to skip matching classes provided by AI2.
+filter_mit_classes: false

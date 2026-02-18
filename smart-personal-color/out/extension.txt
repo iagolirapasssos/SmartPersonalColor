@@ -1,0 +1,48 @@
+<div align="center">
+<h1><kbd>🧩 SmartPersonalColor</kbd></h1>
+An extension for MIT App Inventor 2.<br>
+AI Skin Tone Analyzer — On-device background removal (no external API), average face RGB, undertone, season, and 15 professional color palettes.
+</div>
+
+## 📝 Specifications
+* **
+📦 **Package:** com.iagolirapassos.smartpersonalcolor
+💾 **Size:** 20,50 KB
+⚙️ **Version:** 4.0
+📱 **Minimum API Level:** 14
+📅 **Updated On:** [date=2026-02-18 timezone="America/Fortaleza"]
+💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-publish-extensions/129103?u=jewel) <small><mark>v5.5.0</mark></small>
+
+## <kbd>Events:</kbd>
+**SmartPersonalColor** has total 2 events.
+
+### 1. AnalysisResult
+Fires when analysis is complete. Returns average face RGB, undertone, 12-season result, 15 named color palettes (YailList of YailLists: index 0 = name, index 1-5 = hex colors), and a transparent PNG path of the face with background removed (no external API).
+
+| Parameter | Type
+| - | - |
+| r | number
+| g | number
+| b | number
+| undertone | text
+| season | text
+| palettes | list
+| faceImagePath | text
+
+### 2. Error
+Fires when analysis fails. Provides a descriptive error message.
+
+| Parameter | Type
+| - | - |
+| message | text
+
+## <kbd>Method:</kbd>
+**SmartPersonalColor** has total 1 method.
+
+### 1. Analyze
+Analyzes the image. Fires AnalysisResult with: average face RGB, undertone, season, 15 color palettes (YailList), and the path to a PNG of the face with background removed.
+
+| Parameter | Type
+| - | - |
+| imagePath | text
+
