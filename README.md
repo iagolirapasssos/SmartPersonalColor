@@ -1,7 +1,7 @@
 <div align="center">
 <h1><kbd>🧩 SmartPersonalColor</kbd></h1>
 An extension for MIT App Inventor 2.<br><br>
-<strong>AI Skin Tone Analyzer</strong> — On-device background removal (no external API), average face RGB, undertone, season, and 15 professional color palettes.
+<strong>Smart Personal Color - Skin Tone Analyzer</strong> — On-device background removal (no external API), average face RGB, undertone, season, and 15 professional color palettes.
 
 <br><br>
 
