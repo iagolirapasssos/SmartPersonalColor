@@ -7,10 +7,10 @@ ANÁLISE COMPLETA DE COLORAÇÃO PESSOAL - Detecta subtom, contraste, intensidad
 ## 📝 Specifications
 * **
 📦 **Package:** com.iagolirapassos.smartpersonalcolor
-💾 **Size:** 20,08 KB
-⚙️ **Version:** 5.0
+💾 **Size:** 24,23 KB
+⚙️ **Version:** 6.0
 📱 **Minimum API Level:** 14
-📅 **Updated On:** [date=2026-02-19 timezone="America/Fortaleza"]
+📅 **Updated On:** [date=2026-02-20 timezone="America/Fortaleza"]
 💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-publish-extensions/129103?u=jewel) <small><mark>v5.5.0</mark></small>
 
 ## <kbd>Events:</kbd>

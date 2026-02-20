@@ -38,8 +38,8 @@ import java.util.Random;
  * - Imagem do rosto em PNG com transparência
  */
 @DesignerComponent(
-        version = 52,
-        versionName = "5.0",
+        version = 58,
+        versionName = "6.0",
         description = "ANÁLISE COMPLETA DE COLORAÇÃO PESSOAL - Detecta subtom, contraste, intensidade e classifica nas 12 estações sazonais com alta precisão.",
         category = ComponentCategory.EXTENSION,
         nonVisible = true,

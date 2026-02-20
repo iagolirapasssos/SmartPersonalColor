@@ -1,42 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.iagolirapassos.smartpersonalcolor">
 
-    <!-- Permissões essenciais -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="28"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <!-- Necessário para Android 11+ acessar arquivos -->
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
-
-    <!-- Compatibilidade com câmera -->
-    <uses-feature android:name="android.hardware.camera" android:required="false"/>
-
-    <application
-        android:allowBackup="true"
-        android:usesCleartextTraffic="true">
-
-        <!-- ML Kit Face Detection (offline) -->
-        <meta-data
-            android:name="com.google.mlkit.vision.DEPENDENCIES"
-            android:value="face" />
-
-        <!-- TensorFlow Lite (opcional mas recomendado) -->
-        <meta-data
-            android:name="org.tensorflow.lite.version"
-            android:value="2.14.0" />
-
+    <application>
     </application>
-
-    <!-- Necessário para abrir arquivos (Android 11+) -->
-    <queries>
-        <intent>
-            <action android:name="android.intent.action.VIEW"/>
-            <data android:mimeType="image/*"/>
-        </intent>
-    </queries>
 
 </manifest>
